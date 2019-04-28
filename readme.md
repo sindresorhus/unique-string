@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save unique-string
+$ npm install unique-string
 ```
 
 
