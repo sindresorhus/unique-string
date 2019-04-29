@@ -7,14 +7,14 @@ test('main', t => {
 	const created = new Set();
 
 	for (let i = 0; i < 100000; i++) {
-		const str = uniqueString();
+		const string = uniqueString();
 
-		if (created.has(str)) {
-			t.fail(`${str} already exists`);
+		if (created.has(string)) {
+			t.fail(`${string} already exists`);
 		}
 
-		t.is(str.length, 32);
+		t.is(string.length, 32);
 
-		created.add(str);
+		created.add(string);
 	}
 });

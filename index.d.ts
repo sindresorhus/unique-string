@@ -1,7 +1,7 @@
 /**
 Generate a unique random string.
 
-@returns A 32 character unique string. Matches the length of MD5, which is [unique enough](http://stackoverflow.com/a/2444336/64949) for non-crypto purposes.
+@returns A 32 character unique string. Matches the length of MD5, which is [unique enough](https://stackoverflow.com/a/2444336/64949) for non-crypto purposes.
 
 @example
 ```
