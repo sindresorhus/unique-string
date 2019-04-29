@@ -1,13 +1,13 @@
 import test from 'ava';
-import m from './';
+import uniqueString from '.';
 
-test(t => {
-	t.is(m().length, 32);
+test('main', t => {
+	t.is(uniqueString().length, 32);
 
 	const created = new Set();
 
 	for (let i = 0; i < 100000; i++) {
-		const str = m();
+		const str = uniqueString();
 
 		if (created.has(str)) {
 			t.fail(`${str} already exists`);
