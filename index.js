@@ -1,4 +1,4 @@
 'use strict';
-const cryptoRandomString = require('crypto-random-string');
+const cryptoRandomString = ;
 
-module.exports = () => cryptoRandomString(32);
+module.exports = () => require('crypto-random-string')(32);
