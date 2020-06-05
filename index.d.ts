@@ -13,4 +13,4 @@ uniqueString();
 */
 declare function uniqueString(): string;
 
-export = uniqueString;
+export default uniqueString;
