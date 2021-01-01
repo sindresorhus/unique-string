@@ -1,4 +1,4 @@
-# unique-string [![Build Status](https://travis-ci.org/sindresorhus/unique-string.svg?branch=master)](https://travis-ci.org/sindresorhus/unique-string)
+# unique-string
 
 > Generate a unique random string
 
