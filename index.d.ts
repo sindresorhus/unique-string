@@ -5,12 +5,10 @@ Generate a unique random string.
 
 @example
 ```
-import uniqueString = require('unique-string');
+import uniqueString from 'unique-string';
 
 uniqueString();
 //=> 'b4de2a49c8ffa3fbee04446f045483b2'
 ```
 */
-declare function uniqueString(): string;
-
-export = uniqueString;
+export default function uniqueString(): string;

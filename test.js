@@ -1,5 +1,5 @@
 import test from 'ava';
-import uniqueString from '.';
+import uniqueString from './index.js';
 
 test('main', t => {
 	t.is(uniqueString().length, 32);

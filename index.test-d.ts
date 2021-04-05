@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import uniqueString = require('.');
+import uniqueString from './index.js';
 
 expectType<string>(uniqueString());

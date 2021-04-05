@@ -1,4 +1,5 @@
-'use strict';
-const cryptoRandomString = require('crypto-random-string');
+import cryptoRandomString from 'crypto-random-string';
 
-module.exports = () => cryptoRandomString(32);
+export default function uniqueString() {
+	return cryptoRandomString({length: 32});
+}
