@@ -1,6 +1,6 @@
 {
 	"name": "unique-string",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Generate a unique random string",
 	"license": "MIT",
 	"repository": "sindresorhus/unique-string",
